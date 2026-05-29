@@ -1,0 +1,51 @@
+# Espacio de busqueda NAS desde cero.
+# Ajusta estas listas/rangos segun GPU, dataset y numero de clases.
+
+architectures:
+  - Unet
+  - FPN
+  - DeepLabV3Plus
+  - Linknet
+  - UnetPlusPlus
+
+encoders:
+  - resnet18
+  - resnet34
+  - mobilenet_v2
+  - efficientnet-b0
+  - mit_b0
+  - mit_b1
+
+losses:
+  - dice_ce
+  - focal_dice
+  - tversky_ce
+
+augmentations:
+  - light
+  - medium
+  - strong
+
+batch_sizes:
+  - 4
+  - 8
+
+decoder_lr:
+  min: 5.0e-5
+  max: 2.0e-3
+  log: true
+
+encoder_lr_ratio:
+  min: 0.10
+  max: 1.00
+  log: false
+
+weight_decay:
+  min: 1.0e-5
+  max: 2.0e-2
+  log: true
+
+dice_weight:
+  min: 0.35
+  max: 0.75
+  log: false

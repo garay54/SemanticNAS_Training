@@ -1,0 +1,19 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "name": "background",
+      "color": [0, 0, 0]
+    },
+    {
+      "id": 1,
+      "name": "object_a",
+      "color": [0, 255, 0]
+    },
+    {
+      "id": 2,
+      "name": "object_b",
+      "color": [255, 128, 0]
+    }
+  ]
+}
