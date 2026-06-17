@@ -1,3 +1,19 @@
+# SemanticNAS Training
+
+## Portfolio summary / Resumen de portafolio
+
+SemanticNAS_Training is a reusable training package for semantic segmentation from scratch. It supports dataset preparation workflows and neural architecture/hyperparameter search with Optuna without depending on pretrained crack-specific checkpoints.
+
+SemanticNAS_Training es un paquete reutilizable para entrenar modelos de segmentacion semantica desde cero. Soporta preparacion de datasets y busqueda de arquitectura/hiperparametros con Optuna sin depender de checkpoints preentrenados especificos para grietas.
+
+**Technologies / Tecnologias:** Python, PyTorch-style training workflow, Optuna, semantic segmentation.
+
+**Project status / Estado:** Active training toolkit for reproducible segmentation experiments.
+
+**Next steps / Proximos pasos:** add example datasets, minimal smoke tests, and CI validation for the training entrypoints.
+
+---
+
 # Guia de uso - Semantic NAS From Scratch Package
 
 Este paquete entrena modelos de segmentacion semantica **desde cero** y ejecuta
